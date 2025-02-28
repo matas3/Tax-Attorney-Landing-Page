@@ -1,0 +1,101 @@
+/* CSS */
+:root {
+	font-family: Inter, sans-serif;
+	font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+	:root { font-family: InterVariable, sans-serif; }
+}
+
+.header-icon {
+	margin-right: 10px;
+}
+.header {
+	display: flex;
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	height: 100px;
+	align-items: center;
+	padding-right: 16px;
+	padding-left: 16px;
+	margin-bottom: 16px;
+}
+.header-navigation {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+}
+.header-name {
+	font-size: 18px;
+}
+.header-about {
+	margin-right: 50px;
+	font-size: 18px;
+} 
+.header-disputes {
+	margin-right: 50px;
+	font-size: 18px;
+}
+.header-international {
+	margin-right: 50px;
+	font-size: 18px;
+}
+.header-rates_fees {
+	margin-right: 50px;
+	font-size: 18px;
+}
+.header-contact {
+	margin-right: 50px;
+	font-size: 18px;
+}
+.header-consultation {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 50px;
+}
+.hero-section {
+	/* border: 3px dotted lightgray; */
+	max-width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 16px;
+	padding-left: 16px;
+	display: flex;
+
+}
+.hero-subtitle {
+	letter-spacing: 4px;
+	margin-bottom: 24px;
+}
+.hero-title {
+	font-size: 90px;
+	font-weight: bold;
+	line-height: 1.08;
+	margin-bottom: 20px;
+	
+}
+.hero-title-highlight {
+	color: #008e5a;
+}
+.hero-description {
+	font-size: 18px;
+	color: gray;
+	font-weight: 300;
+	line-height: 1.3;
+	margin-bottom: 34px;
+}
+.hero-consultation {
+	color: white;
+	background: #00905a;
+	padding: 16px 30px;
+	border-radius: 50px;
+}
+.hero-info {
+	flex: 1;
+	margin-top: 50px;
+}
+.hero-image {
+	margin-right: 30px;
+}
