@@ -257,7 +257,7 @@
 	margin: auto;
 	padding-left: 16px;
 	padding-right: 16px;
-
+	margin-bottom: 80px;
 }
 .consult-section-title {
 	font-weight: bold;
@@ -387,4 +387,49 @@
 .social-media-button:hover {
 	background-color: rgb(231, 231, 231);
 	transition: 150ms;
+}
+.footer-section {
+	background-color: black;
+	justify-content: center;
+	display: flex;
+}
+.footer-icon {
+	color: white;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+.footer-section-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer-section-name {
+	color: white;
+}
+.footer-section-name-about {
+	color: gray;
+	font-size: 12px;
+	margin-bottom: 60px
+}
+.footer-section-links {
+	display: flex;
+	margin-bottom: 56px;
+}
+.footer-section-link { 
+	font-size: 18px;
+	color: white;
+	font-weight: 500;
+	margin-right: 30px;
+	transition: 150ms;
+}
+.footer-section-link:hover {
+	color: #00ad6e;
+}
+.footer-section-link:last-child {
+	margin-right: 0px;
+}
+.footer-section-copyright {
+	font-size: 12px;
+	color: gray;
+	margin-bottom: 40px;
 }
