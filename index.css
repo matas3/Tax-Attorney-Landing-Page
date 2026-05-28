@@ -496,7 +496,7 @@
 	}
 	.hero-image {
 		display: none;
-	}		
+	}	
 }
 
 @media only screen and (max-width: 900px) {
@@ -549,6 +549,11 @@
 		justify-content: center;
 		margin-right: 0;
 	}
+	.consult-section-main-info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}	
 }
 	
 
@@ -585,5 +590,10 @@
 	}
 	.consult-contact-info-bg {
 		flex-direction: column;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.hero-title {
+		font-size: 60px;
 	}
 }
