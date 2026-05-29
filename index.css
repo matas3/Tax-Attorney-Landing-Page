@@ -93,6 +93,10 @@
 	background: #00905a;
 	padding: 16px 30px;
 	border-radius: 50px;
+	transition: 150ms ease-in-out color;
+}
+.button:hover {
+	background-color: #078b5b;
 }
 .hero-info {
 	flex: 1;
@@ -164,10 +168,14 @@
 }
 .about-section-learn_more {
 	display: flex;
-
+	transition: 150ms ease-in-out color;
+	color: #01a368;
+	cursor: pointer;
+}
+.about-section-learn_more:hover {
+	color: #068d5c;
 }
 .about-section-learn_more-title {
-	color: #01a368;
 	font-weight: bold;
 	font-size: 20px;
 	margin-right: 8px;
@@ -266,6 +274,7 @@
 }
 .consult-section-main-info {
 	display: flex;
+	width: 100%;
 }
 .consult-contact-info-bg {
 	background-color: #f6f7f6;
@@ -523,7 +532,7 @@
 	}
 	.consult-contact-info-bg {
 		background-color: #f6f7f6;
-		width: 500px;
+		width: 100%;
 		border-radius: 26px;
 		padding: 32px;
 		margin-right: 64px;
